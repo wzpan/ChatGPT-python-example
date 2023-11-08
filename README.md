@@ -20,8 +20,7 @@ python3 bot.py
 
 ``` py
 completion = openai.Completion.create(model="gpt-3.5-turbo", \
-                                       messages=[{"role": "user", "content": "请使用 Python 实现一个二分查找算法"}], \
-                                        api_base="https://api.openai.com/v1/chat")
+                                       messages=[{"role": "user", "content": "请使用 Python 实现一个二分查找算法"}])
 ```
 
 ## 4. 切换模型（可选）
