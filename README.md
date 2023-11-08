@@ -25,9 +25,4 @@ completion = openai.Completion.create(model="gpt-3.5-turbo", \
 
 ## 4. 切换模型（可选）
 
-ChatGPT 一共提供了两种可选模型：
-
-- `gpt-3.5-turbo`：ChatGPT 官网所使用的模型；
-- `gpt-3.5-turbo-0301`：OpenAI 在 2023.3.1 发布的新模型，带来了一些改进。不过可能没有老模型稳定。
-
-通过修改第 4 行代码里的 `model` 参数即可指定模型。
+通过修改第 4 行代码里的 `model` 参数即可指定模型。可选的模型详见 [models](https://platform.openai.com/docs/models) 。
