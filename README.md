@@ -19,7 +19,7 @@ python3 bot.py
 修改第 4 行代码里的 `content` 参数即可。例如：
 
 ``` py
-completion = openai.Completion.create(model="gpt-3.5-turbo", \
+completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", \
                                        messages=[{"role": "user", "content": "请使用 Python 实现一个二分查找算法"}])
 ```
 
